@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.4.rc1'
+gem 'rails', '3.2.7'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -15,7 +15,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
